@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="37062" started-at="2019-02-10T03:42:55Z" finished-at="2019-02-10T03:43:33Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="37062" started-at="2019-02-10T03:42:55Z" finished-at="2019-02-10T03:43:33Z">
+      <class name="com.actitime.qa.LoginPage2Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.actitime.qa.LoginPage2Test@129a8472]" name="setup" is-config="true" duration-ms="13760" started-at="2019-02-09T22:42:56Z" finished-at="2019-02-09T22:43:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTitleTest()[pri:1, instance:com.actitime.qa.LoginPage2Test@129a8472]" name="verifyTitleTest" duration-ms="13" started-at="2019-02-09T22:43:09Z" finished-at="2019-02-09T22:43:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.actitime.qa.LoginPage2Test@129a8472]" name="shutdown" is-config="true" duration-ms="598" started-at="2019-02-09T22:43:09Z" finished-at="2019-02-09T22:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.actitime.qa.LoginPage2Test@129a8472]" name="setup" is-config="true" duration-ms="4357" started-at="2019-02-09T22:43:16Z" finished-at="2019-02-09T22:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.actitime.qa.LoginPage2Test@129a8472]" name="loginTest" duration-ms="3251" started-at="2019-02-09T22:43:20Z" finished-at="2019-02-09T22:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.actitime.qa.LoginPage2Test@129a8472]" name="shutdown" is-config="true" duration-ms="583" started-at="2019-02-09T22:43:24Z" finished-at="2019-02-09T22:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+      </class> <!-- com.actitime.qa.LoginPage2Test -->
+      <class name="com.actitime.qa.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.actitime.qa.LoginPageTest@1b0375b3]" name="setup" is-config="true" duration-ms="5514" started-at="2019-02-09T22:43:10Z" finished-at="2019-02-09T22:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTitleTest()[pri:1, instance:com.actitime.qa.LoginPageTest@1b0375b3]" name="verifyTitleTest" duration-ms="18" started-at="2019-02-09T22:43:15Z" finished-at="2019-02-09T22:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.actitime.qa.LoginPageTest@1b0375b3]" name="shutdown" is-config="true" duration-ms="640" started-at="2019-02-09T22:43:15Z" finished-at="2019-02-09T22:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.actitime.qa.LoginPageTest@1b0375b3]" name="setup" is-config="true" duration-ms="4437" started-at="2019-02-09T22:43:24Z" finished-at="2019-02-09T22:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.actitime.qa.LoginPageTest@1b0375b3]" name="loginTest" duration-ms="3239" started-at="2019-02-09T22:43:29Z" finished-at="2019-02-09T22:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.actitime.qa.LoginPageTest@1b0375b3]" name="shutdown" is-config="true" duration-ms="598" started-at="2019-02-09T22:43:32Z" finished-at="2019-02-09T22:43:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+      </class> <!-- com.actitime.qa.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

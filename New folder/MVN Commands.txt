@@ -1,0 +1,6 @@
+1. To Run maven project
+mvn clean install
+
+2. To skip maven execution and generate build
+mvn package -Dmaven.test.skip = true (Should have <maven.test.skip?true</maven.test.skip> properties in pom.xml file)
+mvn package -DskipTests
