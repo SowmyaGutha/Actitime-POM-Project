@@ -29,11 +29,18 @@ public class LoginPageTest extends BaseClass {
 		String name= driver.getTitle();
 		System.out.println("Page Title is: "+  name);
 		Assert.assertEquals("actiTIME - Enter Time-Track", name);
-
+		System.out.println("Logged in Successfully");
 	}
 
 	@Test(priority = 1)
 	public void verifyTitleTest() throws InterruptedException {
+		String title = loginpage.verifyTitle();
+		System.out.println("Page Title is: " + title);
+		Assert.assertEquals("actiTIME - Login", title);
+	}
+
+	@Test(priority = 3)
+	public void verifyTitleTest1() throws InterruptedException {
 		String title = loginpage.verifyTitle();
 		System.out.println("Page Title is: " + title);
 		Assert.assertEquals("actiTIME - Login", title);
